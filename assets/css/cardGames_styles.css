@@ -1,0 +1,39 @@
+.cardGameMainWrapperLink {
+  transition: ease 0.4s;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  text-decoration: unset;
+}
+
+.cardGameMainWrapperLink:hover {
+  transition: ease 0.4s;
+  transform: scale(1.02);
+  text-decoration: unset;
+}
+
+.cardGameMainWrapperLink:active {
+  transition: ease 0.1s;
+  transform: scale(1);
+}
+
+.cardGameMain {
+  padding-top: 150%;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.cardGameMainTitle {
+  transition: ease 0.4s;
+  color: rgba(255,255,255,0.5);
+  padding: 0 15px;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  font-size: 18px;
+  line-height: 1.5;
+}
+

@@ -1,0 +1,89 @@
+.swiper-pagination-bullet-active {
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+}
+
+.simple-slider .swiper-slide {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .simple-slider .swiper-slide {
+    height: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  .simple-slider .swiper-slide {
+    height: 200px;
+  }
+}
+
+@media (max-width: 360px) {
+  .simple-slider .swiper-slide {
+    height: 150px;
+  }
+}
+
+.simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgba(255,255,255,0.5);
+  text-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+@media (max-width:767px) {
+  .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
+    display: none;
+  }
+}
+
+.simple-slider.IBMSMSlider {
+  cursor: grab;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  margin: 0;
+}
+
+.simple-slider.IBMSMSlider:active {
+  border-radius: 10px;
+  cursor: grabbing;
+}
+
+.swiper-container.IBMSMSliderContainer {
+}
+
+.swiper-wrapper.IBMSMSliderContainerWrapper {
+}
+
+.swiper-slide.IBMSMSliderContainerWrapperSlider {
+  position: relative;
+}
+
+.IBMSMSliderContainerWrapperSliderAction {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnMain.IBMSMSliderContainerWrapperSliderActionbtn {
+  transition: ease 0.4s;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.btnMain.IBMSMSliderContainerWrapperSliderActionbtn:hover {
+  transition: ease 0.4s;
+  background: rgba(0,0,0,0.75);
+}
+

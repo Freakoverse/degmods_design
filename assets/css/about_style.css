@@ -1,0 +1,36 @@
+.LearnText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
+  margin-top: 50px;
+  padding: 50px 15px;
+  border-radius: 15px;
+  /*border: solid 1px rgba(255,255,255,0.1);*/
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  color: rgba(255,255,255,0.75);
+  align-items: center;
+  justify-content: start;
+}
+
+.LearnTextInside {
+  width: 100%;
+  max-width: 750px;
+  grid-gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboutSec {
+  width: 100%;
+  padding: 15px;
+}
+
+.LearnTextHeading {
+}
+
+.LearnTextPara {
+  width: 100%;
+}
+

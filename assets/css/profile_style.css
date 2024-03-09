@@ -1,0 +1,7 @@
+.IBMSMSMBSS_Profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
+}
+

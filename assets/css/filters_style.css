@@ -1,0 +1,20 @@
+.FiltersMain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 15px;
+  /*padding: 10px;*/
+  /*border-radius: 10px;*/
+  /*border: solid 1px rgba(255,255,255,0.1);*/
+}
+
+.FiltersMainElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,0.5);
+}
+
