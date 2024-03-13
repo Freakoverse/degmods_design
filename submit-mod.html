@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/cardMod_styles.css">
     <link rel="stylesheet" href="assets/css/comments_style.css">
     <link rel="stylesheet" href="assets/css/downloads_style.css">
+    <link rel="stylesheet" href="assets/css/FAQ_style.css">
     <link rel="stylesheet" href="assets/css/filters_style.css">
     <link rel="stylesheet" href="assets/css/footer_styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
@@ -81,28 +82,30 @@
                             <h2 class="IBMSMTitleMainHeading">Submit a mod</h2>
                         </div>
                         <div class="IBMSMSMBS_Write">
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Game</label><input type="text" class="inputMain" placeholder="The mod is for a game called..."></div>
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Title</label><input type="text" class="inputMain" placeholder="Return the banana mod"></div>
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Body</label><textarea class="inputMain" placeholder="Here's what this mod is all about"></textarea></div>
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Featured Image URL</label><input type="text" class="inputMain" inputmode="url" placeholder="We recommend to upload images to https://nostr.build/"></div>
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Summary</label><textarea class="inputMain" placeholder="This is a quick description of my mod"></textarea></div>
                             <div class="inputLabelWrapperMain">
-                                <p class="labelMain">Game</p><input type="text" class="inputMain" placeholder="The mod is for a game called...">
-                            </div>
-                            <div class="inputLabelWrapperMain">
-                                <p class="labelMain">Title</p><input type="text" class="inputMain" placeholder="Return the banana mod">
-                            </div>
-                            <div class="inputLabelWrapperMain">
-                                <p class="labelMain">Body</p><textarea class="inputMain" placeholder="Here's what this mod is all about"></textarea>
-                            </div>
-                            <div class="inputLabelWrapperMain">
-                                <p class="labelMain">Featured Image URL</p><input type="text" class="inputMain" inputmode="url">
-                            </div>
-                            <div class="inputLabelWrapperMain">
-                                <p class="labelMain">Summary</p><textarea class="inputMain" placeholder="This is a quick description of my mod"></textarea>
-                            </div>
-                            <div class="inputLabelWrapperMain">
-                                <div class="labelWrapperMain">
-                                    <p class="labelMain">Download URLs</p><button class="btn btnMain btnMainAdd" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                <div class="labelWrapperMain"><label class="form-label labelMain">Screenshots URLs</label><button class="btn btnMain btnMainAdd" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
-                                        </svg></button>
-                                </div>
+                                        </svg></button></div>
+                                <div class="inputWrapperMain"><input type="text" class="inputMain" inputmode="url" placeholder="We recommend to upload images to https://nostr.build/" readonly="" disabled=""><button class="btn btnMain btnMainRemove" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M135.2 17.69C140.6 6.848 151.7 0 163.8 0H284.2C296.3 0 307.4 6.848 312.8 17.69L320 32H416C433.7 32 448 46.33 448 64C448 81.67 433.7 96 416 96H32C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H128L135.2 17.69zM394.8 466.1C393.2 492.3 372.3 512 346.9 512H101.1C75.75 512 54.77 492.3 53.19 466.1L31.1 128H416L394.8 466.1z"></path>
+                                        </svg></button></div>
+                                <div class="inputWrapperMain"><input type="text" class="inputMain" inputmode="url" placeholder="We recommend to upload images to https://nostr.build/"><button class="btn btnMain btnMainRemove" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M135.2 17.69C140.6 6.848 151.7 0 163.8 0H284.2C296.3 0 307.4 6.848 312.8 17.69L320 32H416C433.7 32 448 46.33 448 64C448 81.67 433.7 96 416 96H32C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H128L135.2 17.69zM394.8 466.1C393.2 492.3 372.3 512 346.9 512H101.1C75.75 512 54.77 492.3 53.19 466.1L31.1 128H416L394.8 466.1z"></path>
+                                        </svg></button></div>
+                            </div>
+                            <div class="inputLabelWrapperMain">
+                                <div class="labelWrapperMain"><label class="form-label labelMain">Download URLs</label><button class="btn btnMain btnMainAdd" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
+                                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"></path>
+                                        </svg></button></div>
                                 <div class="inputWrapperMain"><input type="text" class="inputMain" inputmode="url" placeholder="https://..." value="https://bananasarecool.com/downloadlink" readonly="" disabled=""><button class="btn btnMain btnMainRemove" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M135.2 17.69C140.6 6.848 151.7 0 163.8 0H284.2C296.3 0 307.4 6.848 312.8 17.69L320 32H416C433.7 32 448 46.33 448 64C448 81.67 433.7 96 416 96H32C14.33 96 0 81.67 0 64C0 46.33 14.33 32 32 32H128L135.2 17.69zM394.8 466.1C393.2 492.3 372.3 512 346.9 512H101.1C75.75 512 54.77 492.3 53.19 466.1L31.1 128H416L394.8 466.1z"></path>
@@ -210,7 +213,7 @@
     </div>
     <div class="secMainFooterWrapper">
         <div class="secMainFooter">
-            <p class="secMainFooterPara">Built for&nbsp;<a class="secMainFooterParaLink" href="https://github.com/nostr-protocol/nostr">Nostr</a> by&nbsp;<a class="secMainFooterParaLink" href="https://primal.net/p/npub18n4ysp43ux5c98fs6h9c57qpr4p8r3j8f6e32v0vj8egzy878aqqyzzk9r">Freakoverse</a>&nbsp;and&nbsp;<a class="secMainFooterParaLink" href="#">Name</a></p>
+            <p class="secMainFooterPara">Built with&nbsp;<a class="secMainFooterParaLink" href="https://github.com/nostr-protocol/nostr">Nostr</a> by&nbsp;<a class="secMainFooterParaLink" href="https://primal.net/p/npub18n4ysp43ux5c98fs6h9c57qpr4p8r3j8f6e32v0vj8egzy878aqqyzzk9r">Freakoverse</a>&nbsp;and&nbsp;<a class="secMainFooterParaLink" href="#">Name</a></p>
         </div>
     </div>
     <div id="PopUpMainCommentReplies" class="popUpMain" style="display: none;">
