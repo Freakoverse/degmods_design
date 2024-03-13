@@ -80,6 +80,12 @@
   height: 100%;
 }
 
+@media (max-width: 360px) {
+  .IBMSMSMBSSDownloadsElementInsideReactions {
+    flex-direction: column;
+  }
+}
+
 .IBMSMSMBSSDEIReactionsElement {
   transition: ease 0.4s;
   display: grid;
