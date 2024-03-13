@@ -152,13 +152,6 @@
   grid-gap: 15px;
 }
 
-.inputLabelWrapperMain {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  grid-gap: 10px;
-}
-
 .btnMain.pUMCB_ZapsInsideElementBtn {
   width: 100%;
   background: rgba(255,255,255,0.05);

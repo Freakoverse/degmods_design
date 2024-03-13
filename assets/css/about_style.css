@@ -3,15 +3,14 @@
   display: flex;
   flex-direction: column;
   grid-gap: 25px;
-  margin-top: 50px;
   padding: 50px 15px;
   border-radius: 15px;
-  /*border: solid 1px rgba(255,255,255,0.1);*/
   background: rgba(255,255,255,0.05);
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
   color: rgba(255,255,255,0.75);
   align-items: center;
   justify-content: start;
+  position: relative;
 }
 
 .LearnTextInside {
@@ -23,8 +22,11 @@
 }
 
 .AboutSec {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 15px;
+  grid-gap: 25px;
 }
 
 .LearnTextHeading {
@@ -32,5 +34,26 @@
 
 .LearnTextPara {
   width: 100%;
+}
+
+.LearnTextCharacterImg {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+@media (max-width: 1200px) {
+  .LearnTextCharacterImg {
+    display: none;
+  }
+}
+
+.LearnFAQ {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
 }
 
