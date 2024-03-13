@@ -197,6 +197,7 @@
   min-width: 250px;
   border-radius: 10px;
   overflow: hidden;
-  height: 150px;
+  height: 140.625px;
+  object-fit: cover;
 }
 
