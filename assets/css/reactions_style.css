@@ -85,3 +85,15 @@
 .HBLA_Details_Card:hover {
 }
 
+.IBMSMSMBSS_Details_Card.IBMSMSMBSS_D_CReactUp.IBMSMSMBSS_D_CRUActive {
+  color: rgba(255,70,70,0.85);
+}
+
+.IBMSMSMBSS_Details_Card.IBMSMSMBSS_D_CReactDown.IBMSMSMBSS_D_CRDActive {
+  color: rgba(255,114,54,0.85);
+}
+
+.IBMSMSMBSS_Details_Card.IBMSMSMBSS_D_CBolt.IBMSMSMBSS_D_CBActive {
+  color: rgba(255,255,0,0.85);
+}
+
