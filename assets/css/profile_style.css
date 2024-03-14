@@ -5,3 +5,14 @@
   grid-gap: 25px;
 }
 
+.IBMSMSMBSS_ProfileEdit {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.IBMSMSMBSS_ProfilePreview {
+  display: flex;
+  flex-direction: column;
+}
+

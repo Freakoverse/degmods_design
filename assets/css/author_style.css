@@ -52,6 +52,7 @@
   overflow: hidden;
   background: rgba(255,255,255,0.05);
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  width: 100%;
 }
 
 .IBMSMSMSSS_Author_Top_Icon {
@@ -177,6 +178,7 @@
   text-decoration: unset;
   padding: 5px;
   border-radius: 10px;
+  width: 100%;
 }
 
 .IBMSMSMSSS_Author_Top_Left_InsideLinkWrapper:hover {
@@ -255,5 +257,11 @@
   transition: ease 0.1s;
   color: rgba(255,255,255,0.5);
   transform: scale(0.98);
+}
+
+.IBMSMSMSSS_Author_Top_Banner {
+  width: 100%;
+  padding-top: 20%;
+  border-radius: 10px;
 }
 
