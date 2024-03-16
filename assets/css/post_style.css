@@ -182,7 +182,8 @@
 }
 
 .IBMSMSMBSSShots {
-  width: 100%;
+  max-width: 100%;
+  min-width: 0px;
   overflow-x: auto;
   display: flex;
   flex-direction: row;
@@ -199,5 +200,15 @@
   overflow: hidden;
   height: 140.625px;
   object-fit: cover;
+}
+
+.IBMSMSMBSSPostsWrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+
+.IBMSMSMBSSPostsTitle {
+  color: rgba(255,255,255,0.5);
 }
 

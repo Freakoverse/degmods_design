@@ -21,6 +21,8 @@
 @media (max-width: 768px) {
   .PaginationMainInside {
     flex-direction: row;
+    height: unset;
+    max-width: unset;
   }
 }
 
@@ -95,6 +97,7 @@
   .PaginationMainInsideBoxGroup {
     width: 100%;
     order: 1;
+    justify-content: space-around;
   }
 }
 

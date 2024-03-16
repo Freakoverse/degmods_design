@@ -1,6 +1,5 @@
 .IBMSMSMBSSComments {
   width: 100%;
-  margin: 25px 0 0 0;
   display: flex;
   flex-direction: column;
   grid-gap: 25px;
@@ -222,7 +221,7 @@
 }
 
 .IBMSMSMBSSCommentsCreation {
-  padding: 25px 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   grid-gap: 15px;
@@ -367,5 +366,45 @@
   justify-content: center;
   align-items: center;
   padding: 5px 10px;
+}
+
+.CommentsToggle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 15px;
+  padding: 10px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.05);
+}
+
+@media (max-width: 576px) {
+  .CommentsToggle {
+    flex-direction: column;
+  }
+}
+
+.btnMain.CommentsToggleBtn {
+  flex-grow: 1;
+  background: unset;
+  box-shadow: unset;
+  font-weight: normal;
+  border-radius: 7px;
+}
+
+.btnMain.CommentsToggleBtn.CommentsToggleActive {
+  background: rgba(255,255,255,0.05);
+  font-weight: bold;
+}
+
+.IBMSMSMBSSCommentsWrapper {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
+}
+
+.IBMSMSMBSSTitle {
+  color: rgba(255,255,255,0.5);
 }
 

@@ -283,3 +283,25 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255,115,255,0.5);
 }
 
+.FundingCampaign {
+  width: 100%;
+  background: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.FundingCampaignLink {
+  color: rgba(255,255,255,0.75);
+  font-weight: bold;
+  text-decoration: unset;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.FundingCampaignLink:hover {
+  color: rgb(255,255,255);
+}
+
