@@ -237,6 +237,9 @@ h1, h2, h3, h4, h5, h6 {
 .labelMain {
   margin: 0;
   color: rgba(255,255,255,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .inputWrapperMain {
@@ -279,6 +282,12 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 10px;
 }
 
+.inputLabelWrapperMain.inputLabelWrapperMainAlt {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .linkMain {
   color: rgba(255,115,255,0.5);
 }
@@ -303,5 +312,48 @@ h1, h2, h3, h4, h5, h6 {
 
 .FundingCampaignLink:hover {
   color: rgb(255,255,255);
+}
+
+.CheckboxMain {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.1);
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: inset 0 0 8px 0 rgb(0,0,0,0.1);
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.CheckboxMain::before {
+  transition: ease 0.4s;
+  content: "\2713";
+  width: 30px;
+  height: 30px;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CheckboxMain:checked::before {
+  transition: ease 0.2s;
+  transform: scale(1);
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.CheckboxMain:hover {
+  border: solid 1px rgba(255,255,255,0.15);
 }
 
