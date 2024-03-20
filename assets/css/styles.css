@@ -249,6 +249,11 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 10px;
 }
 
+.labelDescriptionMain {
+  color: rgba(255,255,255,0.35);
+  font-size: 14px;
+}
+
 .btnMain.btnMainRemove {
   background: rgba(255,255,255,0);
 }
