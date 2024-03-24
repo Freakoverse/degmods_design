@@ -7,14 +7,14 @@
 
 .IBMSMSMBSSDownloads {
   width: 100%;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-  border: solid 1px rgba(255,255,255,0.05);
-  overflow: auto;
+  /*border: solid 1px rgba(255,255,255,0.05);*/
+  /*overflow: auto;*/
   max-height: 550px;
-  padding: 15px;
+  /*padding: 15px;*/
 }
 
 @media (max-width: 768px) {

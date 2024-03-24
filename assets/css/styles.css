@@ -162,8 +162,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdownMain {
-  width: 100%;
+  /*width: 100%;*/
   background-color: unset;
+  flex-grow: 1;
 }
 
 .btnMain.btnMainDropdown {
@@ -210,6 +211,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 10px;
   margin: 0 0 5px 0;
   white-space: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  grid-gap: 10px;
 }
 
 .dropdownMainMenuItem:hover {
@@ -322,13 +328,13 @@ h1, h2, h3, h4, h5, h6 {
 .CheckboxMain {
   -webkit-appearance: none;
   appearance: none;
-  width: 40px;
-  height: 40px;
-  min-width: 40px;
-  min-height: 40px;
-  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  min-height: 30px;
+  font-size: 14px;
   color: rgba(255,255,255,0.5);
-  border-radius: 10px;
+  border-radius: 8px;
   border: solid 1px rgba(255,255,255,0.1);
   background-color: rgba(0,0,0,0.1);
   box-shadow: inset 0 0 8px 0 rgb(0,0,0,0.1);
@@ -340,8 +346,8 @@ h1, h2, h3, h4, h5, h6 {
 .CheckboxMain::before {
   transition: ease 0.4s;
   content: "\2713";
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   transform: scale(0);
   transition: 120ms transform ease-in-out;
   display: flex;
@@ -355,10 +361,29 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1);
   background: rgba(255,255,255,0.1);
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .CheckboxMain:hover {
   border: solid 1px rgba(255,255,255,0.15);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(44,44,44);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgb(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.25);
 }
 

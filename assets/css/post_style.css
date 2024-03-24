@@ -162,6 +162,10 @@
   color: rgba(255,255,255,0.65);
   background: rgba(255,255,255,0.05);
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .IBMSMSMBSSModForPara {

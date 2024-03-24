@@ -40,7 +40,8 @@
   flex-direction: row;
   justify-content: end;
   align-items: center;
-  padding: 25px 25px 10px 25px;
+  padding: 15px 25px 10px 25px;
+  border-bottom: solid 1px rgba(255,255,255,0.05);
 }
 
 .popUpMainCardBottom {
@@ -136,7 +137,6 @@
 
 .pUMCB_Zaps {
   width: 100%;
-  margin: 0 0 25px 0;
   display: flex;
   flex-direction: column;
   grid-gap: 10px;
@@ -198,5 +198,29 @@
   transition: ease 0.4s;
   background: rgba(255,255,255,0.1);
   color: yellow;
+}
+
+.dividerPopup {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 25px;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,0.5);
+}
+
+.dividerPopupLine {
+  height: 1px;
+  background: rgba(255,255,255,0.1);
+  flex-grow: 1;
+}
+
+.btnMain.btnMainPopup {
+  width: 100%;
+}
+
+.btnMain.pUMCB_Report:hover {
+  color: tomato;
 }
 

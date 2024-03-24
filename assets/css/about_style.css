@@ -44,6 +44,14 @@
   right: 15px;
 }
 
+.LearnTextCharacterImgLeft {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
 @media (max-width: 1200px) {
   .LearnTextCharacterImg {
     display: none;

@@ -27,10 +27,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
     // Click event for element with class "NMTI_SI_LinkTip"
-    var qrButton = document.querySelector('.NMTI_SI_LinkTip');
-    if (qrButton) {
-        qrButton.addEventListener('click', function () {
+    var zapButton = document.querySelector('.NMTI_SI_LinkTip');
+    if (zapButton) {
+        zapButton.addEventListener('click', function () {
             togglePopupDisplay('PopUpMainZap');
+            disableScroll();
+        });
+    }
+
+    // Click event for element with ID "loginNav"
+    var loginNavButton = document.getElementById('loginNav');
+    if (loginNavButton) {
+        loginNavButton.addEventListener('click', function () {
+            togglePopupDisplay('PopUpMainLogin');
+            disableScroll();
+        });
+    }
+
+    // Click event for element with ID "reportPost"
+    var reportPostButton = document.getElementById('reportPost');
+    if (reportPostButton) {
+        reportPostButton.addEventListener('click', function () {
+            togglePopupDisplay('PopUpMainReport');
             disableScroll();
         });
     }
@@ -60,9 +78,6 @@ function togglePopupDisplay(popupId) {
         }
     }
 }
-
-
-
 
 function disableScroll() {
     document.body.style.overflow = 'hidden';

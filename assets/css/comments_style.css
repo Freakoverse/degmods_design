@@ -94,6 +94,13 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 576px) {
+  .IBMSMSMBSSCL_CAElement {
+    flex-grow: 1;
+    justify-content: center;
+  }
+}
+
 .IBMSMSMBSSCL_CAElement:hover::before {
   transition: ease 0.4s;
   background: linear-gradient(to top right, #262626, #292929, #262626);
@@ -203,6 +210,12 @@
   justify-content: start;
   align-items: start;
   grid-gap: 10px;
+}
+
+@media (max-width: 576px) {
+  .IBMSMSMBSSCL_CommentActionsDetails {
+    justify-content: center;
+  }
 }
 
 .IBMSMSMBSSCL_CADDate {
@@ -373,10 +386,10 @@
   display: flex;
   flex-direction: row;
   grid-gap: 15px;
-  padding: 10px;
-  background: rgba(0,0,0,0.1);
+  /*padding: 10px;*/
+  /*background: rgba(0,0,0,0.05);*/
   border-radius: 10px;
-  border: solid 1px rgba(255,255,255,0.05);
+  /*border: solid 1px rgba(255,255,255,0.05);*/
 }
 
 @media (max-width: 576px) {
@@ -394,7 +407,7 @@
 }
 
 .btnMain.CommentsToggleBtn.CommentsToggleActive {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.1);
   font-weight: bold;
 }
 
