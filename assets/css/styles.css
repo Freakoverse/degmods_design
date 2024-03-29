@@ -121,16 +121,29 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.btnMain.IBMSMActionBtn::before {
+  transition: ease 0.4s;
+  opacity: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.05)), linear-gradient(to top right, #262626, #292929, #262626), linear-gradient(to top right, #262626, #292929, #262626);
+  z-index: -1;
+  border-radius: 10px;
+}
+
 .btnMain.IBMSMActionBtn {
   background: unset;
   box-shadow: unset;
   padding: 10px 25px;
 }
 
-.btnMain.IBMSMActionBtn:hover {
-  background: rgba(255,255,255,0.1);
-  box-shadow: 0 0 8px 0 rgba(0,0,0,0.05);
-  padding: 10px 25px;
+.btnMain.IBMSMActionBtn:hover::before {
+  transition: ease 0.4s;
+  opacity: 1;
 }
 
 .IBMSecMainGroup.IBMSecMainGroupAlt {
@@ -170,11 +183,10 @@ h1, h2, h3, h4, h5, h6 {
 .btnMain.btnMainDropdown {
   width: 100%;
   box-shadow: unset;
-  background: unset;
   border: unset;
   padding: 5px 15px;
   color: rgba(255,255,255,0.5);
-  background: rgba(255,255,255,0.05);
+  background: linear-gradient(rgba(255,255,255,0.03), rgba(255,255,255,0.03)), linear-gradient(to top right, #262626, #292929, #262626);
   font-size: 16px;
   display: flex;
   flex-direction: row;
@@ -204,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdownMainMenuItem {
   transition: ease 0.4s;
-  background: rgba(255,255,255,0.05);
+  background: linear-gradient(rgba(255,255,255,0.03), rgba(255,255,255,0.03)), linear-gradient(to top right, #262626, #292929, #262626);
   color: rgba(255,255,255,0.75);
   border-radius: 5px;
   color: rgba(255,255,255,0.5);
@@ -220,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .dropdownMainMenuItem:hover {
   transition: ease 0.4s;
-  background: rgba(255,255,255,0.1);
+  background: linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.05)), linear-gradient(to top right, #262626, #292929, #262626);
   color: rgba(255,255,255,0.75);
 }
 

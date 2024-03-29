@@ -56,14 +56,32 @@
 .btnMain.IBMSMSMFSSNavBtn {
   flex-grow: 1;
   background: unset;
+  color: rgba(255,255,255,0.25);
 }
 
-.btnMain.IBMSMSMFSSNavBtn:hover {
-  background: rgba(255,255,255,0.05);
+.btnMain.IBMSMSMFSSNavBtn::before {
+  transition: ease 0.4s;
+  opacity: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(rgba(255,255,255,0.01), rgba(255,255,255,0.01)), linear-gradient(to top right, #262626, #292929, #262626);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.btnMain.IBMSMSMFSSNavBtn:hover::before {
+  transition: ease 0.4s;
+  opacity: 1;
 }
 
 .btnMain.IBMSMSMFSSNavBtn.IBMSMSMFSSNavBtnActive {
-  background: rgba(255,255,255,0.1);
+  background: linear-gradient(rgba(255,255,255,0.03), rgba(255,255,255,0.03)), linear-gradient(to top right, #262626, #292929, #262626);
+  border: solid 1px rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.75);
 }
 
 .IBMSMSplitMainFullSideSec.IBMSMSMFSSContent {

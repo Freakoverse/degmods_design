@@ -83,8 +83,9 @@
   overflow: hidden;
   -webkit-line-clamp: 2;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.25;
   color: rgba(255,255,255,0.75);
+  font-weight: bold;
 }
 
 .cMMBodyText {
