@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
         },
-        spaceBetween: 100,
+        spaceBetween: 10,
     });
     
 });
