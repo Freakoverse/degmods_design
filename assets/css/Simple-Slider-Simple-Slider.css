@@ -140,8 +140,20 @@
   right: 5px;
 }
 
+@media (max-width: 992px) {
+  .swiper-button-next {
+    right: 0px;
+  }
+}
+
 .swiper-button-prev {
   left: 5px;
+}
+
+@media (max-width: 992px) {
+  .swiper-button-prev {
+    left: 0px;
+  }
 }
 
 .SliderWrapper {
