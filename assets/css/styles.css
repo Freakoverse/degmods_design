@@ -311,6 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+.inputLabelWrapperMain.inputLabelWrapperMainAltStylized {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
 .linkMain {
   color: rgba(255,115,255,0.5);
 }
