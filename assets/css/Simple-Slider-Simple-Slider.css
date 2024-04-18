@@ -36,6 +36,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -35px;
 }
 
 .simple-slider .swiper-button-next:hover, .simple-slider .swiper-button-prev:hover {
@@ -50,7 +51,7 @@
   .simple-slider .swiper-button-next, .simple-slider .swiper-button-prev {
     bottom: 0;
     top: unset;
-    width: 47%;
+    width: 48%;
     height: unset;
     padding: 10px;
   }
@@ -69,6 +70,7 @@
 }
 
 .swiper-container.IBMSMSliderContainer {
+  padding: 0 0 35px 0;
 }
 
 .swiper-wrapper.IBMSMSliderContainerWrapper {
@@ -86,7 +88,7 @@
 @media (max-width: 992px) {
   .swiper-slide.IBMSMSliderContainerWrapperSlider {
     grid-template-columns: 1.15fr 0.85fr;
-    padding: 0 0 55px 0;
+    padding: 0 0 25px 0;
     grid-gap: 15px;
   }
 }
@@ -230,5 +232,26 @@
     -webkit-line-clamp: 4;
     font-size: 14px;
   }
+}
+
+.swiper-pagination {
+}
+
+@media (max-width: 992px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: rgba(0,0,0,0.5);
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgba(128,0,255,0.5);
 }
 

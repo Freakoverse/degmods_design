@@ -148,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .IBMSecMainGroup.IBMSecMainGroupAlt {
   grid-gap: 50px;
+  padding: 25px 0;
 }
 
 .IBMSMTitleMainHeadingSpan {
@@ -404,5 +405,10 @@ h1, h2, h3, h4, h5, h6 {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.25);
+}
+
+.postSocialTextarea {
+  resize: unset;
+  overflow-y: hidden;
 }
 
