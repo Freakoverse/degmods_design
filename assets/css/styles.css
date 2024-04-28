@@ -412,3 +412,13 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: hidden;
 }
 
+a {
+  color: rgba(255,115,255,0.5);
+  text-decoration: unset;
+}
+
+a:hover {
+  color: rgba(255,115,255,0.75);
+  text-decoration: underline;
+}
+
