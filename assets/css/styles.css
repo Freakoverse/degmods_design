@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255,255,255,0.75);
   background: rgba(255,255,255,0.1);
   transform: scale(1.02);
+  text-decoration: unset;
 }
 
 .btnMain:active {
@@ -139,6 +140,13 @@ h1, h2, h3, h4, h5, h6 {
   background: unset;
   box-shadow: unset;
   padding: 10px 25px;
+  border: solid 1px rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.25);
+}
+
+.btnMain.IBMSMActionBtn:hover {
+  border: solid 1px rgba(255,255,255,0);
+  color: rgba(255,255,255,0.75);
 }
 
 .btnMain.IBMSMActionBtn:hover::before {

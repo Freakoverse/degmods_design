@@ -176,6 +176,7 @@
   transition: ease 0.4s;
   color: rgba(255,255,255,0.75);
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  text-decoration: unset;
 }
 
 .NMTI_SecInside_Link:active {
@@ -222,6 +223,7 @@
 .NavMainBottomInsideLink:hover {
   transition: ease 0.4s;
   color: rgba(255,255,255,0.75);
+  text-decoration: unset;
 }
 
 .NavMainBottomInsideLink.NMBILActive {

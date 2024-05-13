@@ -1,0 +1,78 @@
+.IBMSMSMFSSContentPostsNotification {
+  transition: ease 0.4s;
+  padding: 15px;
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0);
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+
+.IBMSMSMFSSContentPostsNotificationPost {
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: row;
+  grid-gap: 15px;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  flex-grow: 1;
+}
+
+.IBMSMSMFSSContentPostsNotificationPostPP {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.1);
+}
+
+.IBMSMSMFSSContentPostsNotificationPostWrapper {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+.IBMSMSMFSSContentPostsNotificationIcon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+  position: relative;
+}
+
+.IBMSMSMFSSContentPostsNotificationPost.IBMSMSMFSSContentPostsNotificationPostTop {
+  background: unset;
+  padding: 0;
+  color: rgba(255,255,255,0.5);
+}
+
+.IBMSMSMFSSContentPostsNotificationPostText {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+}
+
+.IBMSMSMFSSContentPostsNotificationIconImg {
+  position: absolute;
+}
+
+.IBMSMSMFSSContentPostsNotificationPost.IBMSMSMFSSContentPostsNotificationPostBottom {
+  background: unset;
+  /*padding: 0;*/
+  color: rgba(255,255,255,0.5);
+  border: solid 1px rgba(255,255,255,0.1);
+}
+
