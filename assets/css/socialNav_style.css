@@ -8,13 +8,15 @@
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  right: 50%;
+  transform: translateX(50%);
 }
 
 .socialNavInside {
   width: 100%;
   padding: 10px;
   border-radius: 15px;
-  Background: linear-gradient(to top right, rgba(27,27,27,0.75), rgba(35,35,35,0.75), rgba(27,27,27,0.75));
+  Background: linear-gradient(to top right, rgba(27,27,27,0.9), rgba(35,35,35,0.9), rgba(27,27,27,0.9));
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   backdrop-filter: blur(5px);
   display: flex;
@@ -42,10 +44,11 @@
 
 .btnMain.socialNavInsideBtn:hover {
   transition: ease 0.4s;
+  background: #434343;
 }
 
 .btnMain.socialNavInsideBtn.socialNavInsideBtnActive {
-  Background: linear-gradient(to top right, rgb(50,50,50), rgb(55,55,55), rgb(50,50,50));
+  Background: #434343;
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
   color: rgba(255,255,255,0.75);
 }

@@ -30,7 +30,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0;
+  grid-gap: 10px;
 }
 
 @media (max-width: 768px) {
@@ -78,7 +78,7 @@
 
 .NMTI_Sec_HomeLink_Logo {
   width: 100%;
-  max-width: 75px;
+  max-width: 100px;
 }
 
 .NMTI_Sec_HomeLink_Name {

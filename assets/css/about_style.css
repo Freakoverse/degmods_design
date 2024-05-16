@@ -65,3 +65,35 @@
   grid-gap: 25px;
 }
 
+.learnLinks {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+  border-top: solid 1px rgba(255,255,255,0.1);
+  padding: 10px 0 0 0;
+}
+
+.learnLinksLink {
+  transition: ease 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  opacity: 0.5;
+  transform: scale(1);
+  border-radius: 10px;
+}
+
+.learnLinksLink:hover {
+  transition: ease 0.4s;
+  opacity: 1;
+  transform: scale(1.02);
+  background: rgba(255,255,255,0.1);
+}
+
+.learnLinksLinkImg {
+  width: 100%;
+  max-width: 28px;
+}
+

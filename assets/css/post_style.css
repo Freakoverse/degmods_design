@@ -204,6 +204,7 @@
   overflow: hidden;
   height: 140.625px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .IBMSMSMBSSPostsWrapper {

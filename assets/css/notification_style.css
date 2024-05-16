@@ -11,6 +11,7 @@
 }
 
 .IBMSMSMFSSContentPostsNotificationPost {
+  transition: ease 0.4s;
   padding: 10px;
   border-radius: 10px;
   background: rgba(255,255,255,0.1);
@@ -18,7 +19,7 @@
   flex-direction: row;
   grid-gap: 15px;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   color: white;
   flex-grow: 1;
 }
@@ -59,10 +60,9 @@
 }
 
 .IBMSMSMFSSContentPostsNotificationPostText {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 1;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
 }
 
 .IBMSMSMFSSContentPostsNotificationIconImg {
@@ -74,5 +74,40 @@
   /*padding: 0;*/
   color: rgba(255,255,255,0.5);
   border: solid 1px rgba(255,255,255,0.1);
+}
+
+.IBMSMSMFSSContentPostsNotificationPost.IBMSMSMFSSContentPostsNotificationPostBottom2 {
+}
+
+.IBMSMSMFSSContentPostsNotificationPost.IBMSMSMFSSContentPostsNotificationPostBottom2:hover {
+  transition: ease 0.4s;
+  color: unset;
+  text-decoration: unset;
+  transform: scale(1.01);
+}
+
+.IBMSMSMFSSContentPostsNotificationPost.IBMSMSMFSSContentPostsNotificationPostBottom {
+  text-decoration: unset;
+}
+
+.IBMSMSMFSSContentPostsNotificationPostTextLink {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  max-width: 250px;
+}
+
+.IBMSMSMFSSContentPostsNotificationPostTextLink:hover {
+  text-decoration: unset;
+}
+
+.IBMSMSMFSSContentPostsNotificationPostBottom2Text {
+  flex-direction: row;
+  grid-gap: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
 }
 

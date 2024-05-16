@@ -161,6 +161,15 @@
   color: rgba(173,90,255,0.75);
 }
 
+.IBMSMSMBSSCL_CAElement.IBMSMSMBSSCL_CAERepost.IBMSMSMBSSCL_CAERepostActive {
+  color: rgba(255,255,255,0.75);
+}
+
+.IBMSMSMBSSCL_CAElement.IBMSMSMBSSCL_CAERepost:hover {
+  transition: ease 0.4s;
+  color: rgba(255,255,255,0.75);
+}
+
 .IBMSMSMBSSCL_CAElement.IBMSMSMBSSCL_CAElement.IBMSMSMBSSCL_CAEDown:hover {
   transition: ease 0.4s;
   color: rgba(255,114,54,0.85);
@@ -258,6 +267,7 @@
   flex-direction: row;
   justify-content: end;
   align-items: start;
+  grid-gap: 10px;
 }
 
 .IBMSMSMBSSCC_Top_Box {
@@ -358,6 +368,12 @@
   overflow: hidden;
   color: rgba(255,255,255,0.25);
   font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .IBMSMSMBSSCL_CTO {
+    width: 100%;
+  }
 }
 
 .IBMSMSMBSSCL_CTOLink {
