@@ -42,6 +42,8 @@
     <link rel="stylesheet" href="assets/css/profile_style.css">
     <link rel="stylesheet" href="assets/css/reactions_style.css">
     <link rel="stylesheet" href="assets/css/search_styles.css">
+    <link rel="stylesheet" href="assets/css/settings_style.css">
+    <link rel="stylesheet" href="assets/css/sideTrending_style.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
     <link rel="stylesheet" href="assets/css/socialNav_style.css">
     <link rel="stylesheet" href="assets/css/socialPosts_style.css">
@@ -55,7 +57,7 @@
 
 <body class="bodyMain">
     <div class="NavMain">
-        <div class="FundingCampaign" style="margin: -15px 0 0 0;"><a class="FundingCampaignLink" href="https://geyser.fund/project/degmods" target="_blank">DEG Mods is running a crowd funding campaign. Chip-in or share the link to help bring the project to life (click me).</a></div>
+        <div class="FundingCampaign" style="margin: -15px 0 0 0;"><a class="FundingCampaignLink" href="https://geyser.fund/project/degmods" target="_blank">DEG Mods is running a crowd funding campaign. Chip-in or share the link to help bring the project to life (click me).</a><a class="FundingCampaignLink" href="https://snort.social/nprofile1qqsre6jgq6c7r2vzn5cdtju20qq36sn3cer5avc4x8kfru5pzrlr7sqprpmhxue69uhhyetvv9ujucm4wfex2mn59en8j6f0qyv8wumn8ghj7un9d3shjtnsd3jkyum5wghxxmmd9uq32amnwvaz7tmjv4kxz7fwv3sk6atn9e5k7tce9u9rd" target="_blank" style="background: rgba(255,255,255,0.1);">Interested in developing DEG Mods? Message me!</a></div>
         <div class="NavMainTop">
             <div class="ContainerMain">
                 <div class="NavMainTopInside">
@@ -72,13 +74,10 @@
                                 </svg>Submit Mod</a><a class="NMTI_SecInside_Link" href="write.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
                                     <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                     <path d="M467.1 241.1L351.1 288h94.34c-7.711 14.85-16.29 29.28-25.87 43.01l-132.5 52.99h85.65c-59.34 52.71-144.1 80.34-264.5 52.82l-68.13 68.13c-9.38 9.38-24.56 9.374-33.94 0c-9.375-9.375-9.375-24.56 0-33.94l253.4-253.4c4.846-6.275 4.643-15.19-1.113-20.95c-6.25-6.25-16.38-6.25-22.62 0l-168.6 168.6C24.56 58 366.9 8.118 478.9 .0846c18.87-1.354 34.41 14.19 33.05 33.05C508.7 78.53 498.5 161.8 467.1 241.1z"></path>
-                                </svg>Write</a><a class="NMTI_SecInside_Link" href="admin.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
+                                </svg>Write</a><a class="NMTI_SecInside_Link" href="settings-profile.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
                                     <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                    <path d="M560 448H512V113.5c0-27.25-21.5-49.5-48-49.5L352 64.01V128h96V512h112c8.875 0 16-7.125 16-15.1v-31.1C576 455.1 568.9 448 560 448zM280.3 1.007l-192 49.75C73.1 54.51 64 67.76 64 82.88V448H16c-8.875 0-16 7.125-16 15.1v31.1C0 504.9 7.125 512 16 512H320V33.13C320 11.63 300.5-4.243 280.3 1.007zM232 288c-13.25 0-24-14.37-24-31.1c0-17.62 10.75-31.1 24-31.1S256 238.4 256 256C256 273.6 245.3 288 232 288z"></path>
-                                </svg>Admin</a><a id="loginNav" class="NMTI_SecInside_Link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
-                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                    <path d="M416 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c17.67 0 32 14.33 32 32v256c0 17.67-14.33 32-32 32h-64c-17.67 0-32 14.33-32 32s14.33 32 32 32h64c53.02 0 96-42.98 96-96V128C512 74.98 469 32 416 32zM342.6 233.4l-128-128c-12.51-12.51-32.76-12.49-45.25 0c-12.5 12.5-12.5 32.75 0 45.25L242.8 224H32C14.31 224 0 238.3 0 256s14.31 32 32 32h210.8l-73.38 73.38c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0l128-128C355.1 266.1 355.1 245.9 342.6 233.4z"></path>
-                                </svg>Login</a></div>
+                                    <path d="M495.9 166.6C499.2 175.2 496.4 184.9 489.6 191.2L446.3 230.6C447.4 238.9 448 247.4 448 256C448 264.6 447.4 273.1 446.3 281.4L489.6 320.8C496.4 327.1 499.2 336.8 495.9 345.4C491.5 357.3 486.2 368.8 480.2 379.7L475.5 387.8C468.9 398.8 461.5 409.2 453.4 419.1C447.4 426.2 437.7 428.7 428.9 425.9L373.2 408.1C359.8 418.4 344.1 427 329.2 433.6L316.7 490.7C314.7 499.7 307.7 506.1 298.5 508.5C284.7 510.8 270.5 512 255.1 512C241.5 512 227.3 510.8 213.5 508.5C204.3 506.1 197.3 499.7 195.3 490.7L182.8 433.6C167 427 152.2 418.4 138.8 408.1L83.14 425.9C74.3 428.7 64.55 426.2 58.63 419.1C50.52 409.2 43.12 398.8 36.52 387.8L31.84 379.7C25.77 368.8 20.49 357.3 16.06 345.4C12.82 336.8 15.55 327.1 22.41 320.8L65.67 281.4C64.57 273.1 64 264.6 64 256C64 247.4 64.57 238.9 65.67 230.6L22.41 191.2C15.55 184.9 12.82 175.3 16.06 166.6C20.49 154.7 25.78 143.2 31.84 132.3L36.51 124.2C43.12 113.2 50.52 102.8 58.63 92.95C64.55 85.8 74.3 83.32 83.14 86.14L138.8 103.9C152.2 93.56 167 84.96 182.8 78.43L195.3 21.33C197.3 12.25 204.3 5.04 213.5 3.51C227.3 1.201 241.5 0 256 0C270.5 0 284.7 1.201 298.5 3.51C307.7 5.04 314.7 12.25 316.7 21.33L329.2 78.43C344.1 84.96 359.8 93.56 373.2 103.9L428.9 86.14C437.7 83.32 447.4 85.8 453.4 92.95C461.5 102.8 468.9 113.2 475.5 124.2L480.2 132.3C486.2 143.2 491.5 154.7 495.9 166.6V166.6zM256 336C300.2 336 336 300.2 336 255.1C336 211.8 300.2 175.1 256 175.1C211.8 175.1 176 211.8 176 255.1C176 300.2 211.8 336 256 336z"></path>
+                                </svg>Settings</a><a id="loginNav" class="NMTI_SecInside_Link"><img class="NMTI_SecInside_LinkImg" src="assets/img/DEG%20Mods%20Default%20PP.png">Login</a></div>
                     </div>
                 </div>
             </div>
@@ -103,6 +102,21 @@
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path>
                                         </svg></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="IBMSecMain">
+                    <div class="FiltersMain">
+                        <div class="FiltersMainElement">
+                            <div class="dropdown dropdownMain"><button class="btn dropdown-toggle btnMain btnMainDropdown" aria-expanded="false" data-bs-toggle="dropdown" type="button">Latest</button>
+                                <div class="dropdown-menu dropdownMainMenu"><a class="dropdown-item dropdownMainMenuItem" href="#">Latest</a><a class="dropdown-item dropdownMainMenuItem" href="#">Oldest</a><a class="dropdown-item dropdownMainMenuItem" href="#">Best Rated</a><a class="dropdown-item dropdownMainMenuItem" href="#">Worst Rated</a></div>
+                            </div>
+                        </div>
+                        <div class="FiltersMainElement"></div>
+                        <div class="FiltersMainElement">
+                            <div class="dropdown dropdownMain"><button class="btn dropdown-toggle btnMain btnMainDropdown" aria-expanded="false" data-bs-toggle="dropdown" type="button">Hide NSFW</button>
+                                <div class="dropdown-menu dropdownMainMenu"><a class="dropdown-item dropdownMainMenuItem" href="#">Hide NSFW</a><a class="dropdown-item dropdownMainMenuItem" href="#">Show NSFW<br></a><a class="dropdown-item dropdownMainMenuItem" href="#">Only show NSFW</a></div>
                             </div>
                         </div>
                     </div>
@@ -240,7 +254,7 @@
                     </svg></a><a class="btn btnMain socialNavInsideBtn" role="button" href="search.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
                         <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                         <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path>
-                    </svg></a><a class="btn btnMain socialNavInsideBtn" role="button" href="profile-edit.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                    </svg></a><a class="btn btnMain socialNavInsideBtn" role="button" href="profile.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
                         <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                         <path d="M256 288c79.53 0 144-64.47 144-144s-64.47-144-144-144c-79.52 0-144 64.47-144 144S176.5 288 256 288zM351.1 320H160c-88.36 0-160 71.63-160 160c0 17.67 14.33 32 31.1 32H480c17.67 0 31.1-14.33 31.1-32C512 391.6 440.4 320 351.1 320z"></path>
                     </svg></a></div>
@@ -250,12 +264,59 @@
                 </svg></div>
         </div>
     </div>
+    <div id="PopUpMainLogin" class="popUpMain" style="display: none;">
+        <div class="ContainerMain">
+            <div class="popUpMainCardWrapper">
+                <div class="popUpMainCard popUpMainCardQR">
+                    <div class="popUpMainCardTop">
+                        <div class="popUpMainCardTopInfo">
+                            <h3>Login</h3>
+                        </div>
+                        <div class="popUpMainCardTopClose"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-96 0 512 512" width="1em" height="1em" fill="currentColor" style="z-index: 1;">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"></path>
+                            </svg></div>
+                    </div>
+                    <div class="pUMCB_Zaps">
+                        <div class="pUMCB_ZapsInside"><button class="btn btnMain btnMainPopup" type="button">Login with extension</button></div>
+                        <div class="dividerPopup">
+                            <div class="dividerPopupLine"></div>
+                            <p>or</p>
+                            <div class="dividerPopupLine"></div>
+                        </div>
+                        <div class="pUMCB_ZapsInside">
+                            <div class="inputLabelWrapperMain" style="align-items: center;"><label class="form-label labelMain">Login with signer</label><img class="popUpMainCardBottomQR" src="assets/img/ProfileLinkQR.png"><label class="form-label labelMain">https://degmods.com/wibblywobbly</label></div>
+                        </div>
+                        <div class="dividerPopup">
+                            <div class="dividerPopupLine"></div>
+                            <p>or</p>
+                            <div class="dividerPopupLine"></div>
+                        </div>
+                        <div class="pUMCB_ZapsInside">
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Login via private key</label><input type="text" class="inputMain" placeholder="Private key"></div><button class="btn btnMain btnMainPopup" type="button">Login</button>
+                        </div>
+                        <div class="dividerPopup">
+                            <div class="dividerPopupLine"></div>
+                            <p>Register</p>
+                            <div class="dividerPopupLine"></div>
+                        </div>
+                        <div class="pUMCB_ZapsInside">
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Don't have a nostr address?</label></div><a class="btn btnMain btnMainPopup" role="button" target="_blank" href="https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp">PC:&nbsp;Install a browser extension &amp; generate an address</a><a class="btn btnMain btnMainPopup" role="button" target="_blank" href="https://github.com/greenart7c3/Amber">Android:&nbsp;Install a signer app &amp; generate an address</a><button class="btn btnMain btnMainPopup" type="button">Not recommended:&nbsp;Generate keys &amp; login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/expandDownloadAuthenticationDetails.js"></script>
+    <script src="assets/js/expandOldDownloadsList.js"></script>
     <script src="assets/js/galleryToggleMods.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
     <script src="assets/js/popup.js"></script>
     <script src="assets/js/postTextAreaExpand.js"></script>
+    <script src="assets/js/reactionBuffer.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
     <script src="assets/js/socialNavToggle.js"></script>
     <script src="assets/js/viewFullPost.js"></script>
