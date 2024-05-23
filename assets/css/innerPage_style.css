@@ -11,6 +11,11 @@
   }
 }
 
+.IBMSMSplitMain.IBMSMSplitMainThree {
+  grid-template-columns: 0.75fr 1.5fr 0.75fr;
+  grid-gap: 25px;
+}
+
 .IBMSMSplitMainBigSide {
   display: flex;
   flex-direction: column;
@@ -30,6 +35,9 @@
 }
 
 .IBMSMSplitMainSmallSideSec {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
 }
 
 .IBMSMSplitMainFullSide {
@@ -41,6 +49,9 @@
 }
 
 .IBMSMSplitMainFullSideSec {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
 }
 
 .IBMSMSplitMainFullSideSec.IBMSMSMFSSNav {
@@ -50,7 +61,7 @@
   background: #1c1c1c;
   border-radius: 10px;
   padding: 10px;
-  /*border: solid 1px rgba(255,255,255,0.05);*/
+  border: solid 1px rgba(255,255,255,0.05);
   box-shadow: inset 0 0 8px 0 rgb(0,0,0,0.1);
 }
 
@@ -81,7 +92,7 @@
 
 .btnMain.IBMSMSMFSSNavBtn.IBMSMSMFSSNavBtnActive {
   background: linear-gradient(rgba(255,255,255,0.03), rgba(255,255,255,0.03)), linear-gradient(to top right, #262626, #292929, #262626);
-  border: solid 1px rgba(255,255,255,0.05);
+  /*border: solid 1px rgba(255,255,255,0.05);*/
   color: rgba(255,255,255,0.75);
 }
 
@@ -98,5 +109,23 @@
 
 .btnMain.IBMSMSMFSSNavBtn.IBMSMSMFSSNavBtnAlt {
   padding: 5px 10px;
+}
+
+.IBMSMSMFSSContentPost {
+  width: 100%;
+}
+
+.IBMSMSMSSS_Buttons {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.IBMSMSMSSS_Text {
+  font-size: 28px;
+  color: rgba(255,255,255,0.75);
 }
 

@@ -98,13 +98,33 @@ h1, h2, h3, h4, h5, h6 {
   border: unset;
   color: rgba(255,255,255,0.75);
   background: rgba(255,255,255,0.1);
-  transform: scale(1.02);
+  transform: scale(1.01);
   text-decoration: unset;
 }
 
 .btnMain:active {
   transition: ease 0.1s;
-  transform: scale(0.98);
+  transform: scale(1);
+}
+
+.btnMain:focus {
+  background: rgba(255,255,255,0.1);
+}
+
+.btnMain.btnMainClear {
+  background: rgba(255,255,255,0);
+}
+
+.btnMain.btnMainClear:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.btnMain.btnMainClear.btnMainClearActive {
+  background: rgba(255,255,255,0.1);
+}
+
+.btnMain.btnMainAltText {
+  justify-content: start;
 }
 
 .IBMSecMainGroup {
@@ -277,6 +297,13 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 10px;
 }
 
+.inputWrapperMainWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
 .labelDescriptionMain {
   color: rgba(255,255,255,0.35);
   font-size: 14px;
@@ -284,6 +311,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .btnMain.btnMainRemove {
   background: rgba(255,255,255,0);
+  padding: 0;
+  width: 50px;
+  min-width: 50px;
 }
 
 .btnMain.btnMainRemove:hover {
@@ -336,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   background: rebeccapurple;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -346,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-decoration: unset;
   padding: 10px;
-  width: 100%;
+  flex-grow: 1;
   text-align: center;
 }
 
@@ -424,5 +454,15 @@ a {
 a:hover {
   color: rgba(255,115,255,0.75);
   text-decoration: underline;
+}
+
+.inputWrapperMainBox {
+  width: 50px;
+  min-width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255,255,255,0.25);
 }
 

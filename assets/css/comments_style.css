@@ -232,9 +232,13 @@
 }
 
 .IBMSMSMBSSCL_CADDate {
+  transition: ease 0.4s;
+  color: rgba(255,255,255,0.25);
 }
 
 .IBMSMSMBSSCL_CADTime {
+  transition: ease 0.4s;
+  color: rgba(255,255,255,0.25);
 }
 
 .IBMSMSMBSSCL_CommentTopDetailsWrapper {
@@ -277,8 +281,8 @@
   border: solid 1px rgba(255,255,255,0.05);
   box-shadow: inset 0 0 8px 0 rgb(0,0,0,0.1);
   border-radius: 10px;
-  min-height: 150px;
-  height: 150px;
+  min-height: 100px;
+  height: 100px;
   min-width: 100%;
   outline: unset;
   padding: 15px 20px;
@@ -313,6 +317,7 @@
   position: relative;
   cursor: pointer;
   border: solid 1px rgba(255,255,255,0.1);
+  overflow: hidden;
 }
 
 .IBMSMSMBSSCC_BottomButton:hover {
@@ -353,10 +358,11 @@
 
 .IBMSMSMBSSCL_CommentTopOther {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  flex-direction: row;
+  justify-content: end;
   align-items: end;
   flex-grow: 1;
+  grid-gap: 10px;
 }
 
 .IBMSMSMBSSCL_CTO {
@@ -445,5 +451,29 @@
 
 .IBMSMSMBSSTitle {
   color: rgba(255,255,255,0.5);
+}
+
+.IBMSMSMBSSCL_CommentNoteRepliesTitle {
+  color: rgba(255,255,255,0.5);
+}
+
+.IBMSMSMBSSCL_CAElementLoadWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.IBMSMSMBSSCL_CAElementLoad {
+  background: rgba(255,255,255,0.5);
+  width: 0%;
+}
+
+.btnMain.IBMSMSMBSSCL_CTOBtn {
+  padding: 5px 10px;
+  height: 100%;
 }
 

@@ -85,10 +85,10 @@ td.TableMainBottomRowCell {
   padding: 10px;
   color: rgba(255,255,255,0.5);
   white-space: nowrap;
-  max-width: 100px;
-  min-width: 200px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  /*max-width: 100px;*/
+  /*min-width: 200px;*/
+  /*overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
 }
 
 .TableMainWrapper {

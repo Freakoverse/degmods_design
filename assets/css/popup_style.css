@@ -12,6 +12,7 @@
   justify-content: start;
   align-items: center;
   padding: 5% 0%;
+  overflow: auto;
 }
 
 .popUpMainCard {

@@ -1,0 +1,18 @@
+.IBMSMSMSSS_TrendingMods {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.IBMSMSMSSS_TrendingModsList {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.IBMSMSMSSS_TrendingModsText {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(255,255,255,0.5);
+}
+

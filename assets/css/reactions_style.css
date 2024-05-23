@@ -26,6 +26,7 @@
   box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
   color: rgba(255,255,255,0.25);
   cursor: pointer;
+  position: relative;
 }
 
 .IBMSMSMBSS_Details_Card:hover > .IBMSMSMBSS_Details_CardVisual > .IBMSMSMBSS_Details_CardVisualIcon {
