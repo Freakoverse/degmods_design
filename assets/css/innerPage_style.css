@@ -19,7 +19,7 @@
 .IBMSMSplitMainBigSide {
   display: flex;
   flex-direction: column;
-  grid-gap: 50px;
+  grid-gap: 25px;
 }
 
 .IBMSMSplitMainSmallSide {
