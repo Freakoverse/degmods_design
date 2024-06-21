@@ -478,3 +478,37 @@ a:hover {
   color: rgba(255,255,255,0.25);
 }
 
+.form-range.inputRangeMain {
+  background: rgba(255,255,255,0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-range.inputRangeMain::-webkit-slider-runnable-track {
+  transition: ease 0.4s;
+  background: rgba(0,0,0,0.25);
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.form-range.inputRangeMain::-webkit-slider-runnable-track:hover {
+  transition: ease 0.4s;
+  background: rgba(0,0,0,0.35);
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.form-range.inputRangeMain::-webkit-slider-thumb {
+  transition: ease 0.4s;
+  background: #a0a0a0;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+
+.form-range.inputRangeMain::-webkit-slider-thumb:hover {
+  transition: ease 0.4s;
+  background: #dcdcdc;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+}
+

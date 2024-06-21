@@ -123,6 +123,7 @@
   font-weight: bold;
   transform: scale(1);
   cursor: pointer;
+  overflow: initial;
 }
 
 .NMTI_SecInside_Link::before {

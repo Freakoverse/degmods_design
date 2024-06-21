@@ -52,6 +52,15 @@ document.addEventListener('DOMContentLoaded', function () {
             disableScroll();
         });
     }
+    
+    // Click event for element with class "IBMSMSMBSS_D_CBolt"
+    var repliesButton = document.querySelector('.IBMSMSMBSS_D_CBolt');
+    if (repliesButton) {
+        repliesButton.addEventListener('click', function () {
+            togglePopupDisplay('PopUpMainZapSplit');
+            disableScroll();
+        });
+    }
 
     // Click event for element with class "popUpMainCardTopClose"
     var closeButtons = document.querySelectorAll('.popUpMainCardTopClose');
