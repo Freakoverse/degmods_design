@@ -57,7 +57,7 @@
 
 <body class="bodyMain">
     <div class="NavMain">
-        <div class="FundingCampaign" style="margin: -15px 0 0 0;"><a class="FundingCampaignLink" href="https://geyser.fund/project/degmods" target="_blank">DEG Mods is running a crowd funding campaign. Chip-in or share the link to help bring the project to life (click me).</a><a class="FundingCampaignLink" href="https://snort.social/nprofile1qqsre6jgq6c7r2vzn5cdtju20qq36sn3cer5avc4x8kfru5pzrlr7sqprpmhxue69uhhyetvv9ujucm4wfex2mn59en8j6f0qyv8wumn8ghj7un9d3shjtnsd3jkyum5wghxxmmd9uq32amnwvaz7tmjv4kxz7fwv3sk6atn9e5k7tce9u9rd" target="_blank" style="background: rgba(255,255,255,0.1);">Interested in developing DEG Mods? Message me!</a></div>
+        <div class="FundingCampaign" style="margin: -15px 0 0 0;"><a class="FundingCampaignLink" href="https://geyser.fund/project/degmods" target="_blank">DEG Mods is running a crowd funding campaign. Chip-in or share the link to help bring the project to life (click me).</a></div>
         <div class="NavMainTop">
             <div class="ContainerMain">
                 <div class="NavMainTopInside">
@@ -421,7 +421,9 @@
                     <div class="pUMCB_Zaps">
                         <div class="pUMCB_ZapsInside">
                             <div class="pUMCB_ZapsInsideAmount">
-                                <div class="inputLabelWrapperMain"><label class="form-label labelMain">Amount (Satoshis)</label><input type="text" class="inputMain" inputmode="numeric"></div>
+                                <div class="inputLabelWrapperMain">
+                                    <p class="labelDescriptionMain" style="text-align: center;">If you want the development and maintenance of DEG Mods to stop, then a a tip helps continue it.</p><label class="form-label labelMain">Amount (Satoshis)</label><input type="text" class="inputMain" inputmode="numeric">
+                                </div>
                                 <div class="pUMCB_ZapsInsideAmountOptions"><button class="btn btnMain pUMCB_ZapsInsideAmountOptionsBtn" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M240.5 224H352C365.3 224 377.3 232.3 381.1 244.7C386.6 257.2 383.1 271.3 373.1 280.1L117.1 504.1C105.8 513.9 89.27 514.7 77.19 505.9C65.1 497.1 60.7 481.1 66.59 467.4L143.5 288H31.1C18.67 288 6.733 279.7 2.044 267.3C-2.645 254.8 .8944 240.7 10.93 231.9L266.9 7.918C278.2-1.92 294.7-2.669 306.8 6.114C318.9 14.9 323.3 30.87 317.4 44.61L240.5 224z"></path>
@@ -499,7 +501,7 @@
                             <div class="dividerPopupLine"></div>
                         </div>
                         <div class="pUMCB_ZapsInside">
-                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Login via private key</label><input type="text" class="inputMain" placeholder="Private key"></div><button class="btn btnMain btnMainPopup" type="button">Login</button>
+                            <div class="inputLabelWrapperMain"><label class="form-label labelMain">Login via private key (not recommended)</label><input type="text" class="inputMain" placeholder="Private key"></div><button class="btn btnMain btnMainPopup" type="button">Login</button>
                         </div>
                         <div class="dividerPopup">
                             <div class="dividerPopupLine"></div>
@@ -508,6 +510,34 @@
                         </div>
                         <div class="pUMCB_ZapsInside">
                             <div class="inputLabelWrapperMain"><label class="form-label labelMain">Don't have a nostr address?</label></div><a class="btn btnMain btnMainPopup" role="button" target="_blank" href="https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp">PC:&nbsp;Install a browser extension &amp; generate an address</a><a class="btn btnMain btnMainPopup" role="button" target="_blank" href="https://github.com/greenart7c3/Amber">Android:&nbsp;Install a signer app &amp; generate an address</a><button class="btn btnMain btnMainPopup" type="button">Not recommended:&nbsp;Generate keys &amp; login</button>
+                            <div class="keyGenerationTable">
+                                <div class="keyGenerationTableRow">
+                                    <div class="keyGenerationTableRowCol keyGenerationTableRowColStart">
+                                        <p class="keyGenerationTableRowColText keyGenerationTableRowColTextStart">Public Key</p>
+                                    </div>
+                                    <div class="keyGenerationTableRowCol">
+                                        <p class="keyGenerationTableRowColText">npub18n4ysp43ux5c98fs6h9c57qpr4p8r3j8f6e32v0vj8egzy878aqqyzzk9r</p>
+                                    </div>
+                                    <div class="keyGenerationTableRowCol"><button class="btn btnMain" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM192 64c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S160 113.7 160 96C160 78.33 174.3 64 192 64zM272 224h-160C103.2 224 96 216.8 96 208C96 199.2 103.2 192 112 192h160C280.8 192 288 199.2 288 208S280.8 224 272 224z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="keyGenerationTableRow">
+                                    <div class="keyGenerationTableRowCol keyGenerationTableRowColStart">
+                                        <p class="keyGenerationTableRowColText keyGenerationTableRowColTextStart">Private Key</p>
+                                    </div>
+                                    <div class="keyGenerationTableRowCol">
+                                        <p class="keyGenerationTableRowColText">npub18n4ysp43ux5c98fs6h9c57qpr4p8r3j8f6e32v0vj8egzy878aqqyzzk9r</p>
+                                    </div>
+                                    <div class="keyGenerationTableRowCol"><button class="btn btnMain" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M336 64h-53.88C268.9 26.8 233.7 0 192 0S115.1 26.8 101.9 64H48C21.5 64 0 85.48 0 112v352C0 490.5 21.5 512 48 512h288c26.5 0 48-21.48 48-48v-352C384 85.48 362.5 64 336 64zM192 64c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S160 113.7 160 96C160 78.33 174.3 64 192 64zM272 224h-160C103.2 224 96 216.8 96 208C96 199.2 103.2 192 112 192h160C280.8 192 288 199.2 288 208S280.8 224 272 224z"></path>
+                                            </svg></button></div>
+                                </div>
+                                <div class="keyGenerationTableRow"></div>
+                                <div class="keyGenerationTableRow"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
