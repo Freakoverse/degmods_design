@@ -349,3 +349,45 @@
   color: rgba(255,255,255,0.5);
 }
 
+.keyGenerationTable {
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgba(255,255,255,0.1);
+  box-shadow: 0 0 8px 0 rgb(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.keyGenerationTableRow {
+  display: grid;
+  grid-template-columns: 30% 55% 15%;
+  grid-gap: 0;
+}
+
+.keyGenerationTableRowCol {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.keyGenerationTableRowColText {
+  color: rgba(255,255,255,0.75);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.keyGenerationTableRowColText.keyGenerationTableRowColTextStart {
+  font-weight: bold;
+}
+
+.keyGenerationTableRowCol.keyGenerationTableRowColStart {
+  background: rgba(255,255,255,0.1);
+}
+

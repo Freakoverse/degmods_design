@@ -16,3 +16,12 @@
   flex-direction: column;
 }
 
+.IBMSMSMBSS_ProfileActions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+  padding: 10px 0 0 0;
+  border-top: solid 1px rgba(255,255,255,0.1);
+}
+
