@@ -44,6 +44,12 @@
   right: 15px;
 }
 
+@media (max-width: 1200px) {
+  .LearnTextCharacterImgRight {
+    opacity: 0.1;
+  }
+}
+
 .LearnTextCharacterImgLeft {
   width: 100%;
   max-width: 200px;
