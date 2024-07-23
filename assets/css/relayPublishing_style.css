@@ -1,0 +1,75 @@
+.relayPublishingBox {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
+  padding: 0 10px;
+}
+
+.relayPublishingBoxSec {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+}
+
+.relayPublishingBoxSecRelays {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.relayPublishingBoxSecRelaysRelay {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+}
+
+.relayPublishingBoxSecText {
+  font-weight: bold;
+  color: rgba(255,255,255,0.5);
+}
+
+.RelayPublishingWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+}
+
+.btnMain.RelayPublishingBtn {
+  width: 100%;
+  max-width: 250px;
+  justify-self: center;
+  align-self: center;
+}
+
+.relayPublishingBoxSecRelaysRelayDetails {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
+  align-items: center;
+}
+
+.relayPublishingBoxSecRelaysRelayDetails_Status {
+  width: 100%;
+  max-width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.relayPublishingBoxSecRelaysRelayDetails_StatusInside {
+  height: 10px;
+  width: 10px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.25);
+}
+
+.relayPublishingBoxSecRelaysRelayDetails_StatusInside.relayPublishingBoxSecRelaysRelayDetails_StatusInsideRed {
+  background: tomato;
+}
+
+.relayPublishingBoxSecRelaysRelayDetails_StatusInside.relayPublishingBoxSecRelaysRelayDetails_StatusInsideGreen {
+  background: limegreen;
+}
+
