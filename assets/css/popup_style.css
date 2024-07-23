@@ -391,3 +391,15 @@
   background: rgba(255,255,255,0.1);
 }
 
+.popUpMainCardBottom.popUpMainCardBottomAlt {
+  padding: 0;
+}
+
+.popUpMainCardFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+}
+
