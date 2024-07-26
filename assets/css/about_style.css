@@ -103,3 +103,8 @@
   max-width: 28px;
 }
 
+.IBMSMSMBSSTagsTag.IBMSMSMBSSTagsTagNSFW:hover {
+  border: unset;
+  transform: scale(1);
+}
+

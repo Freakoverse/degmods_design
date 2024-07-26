@@ -34,3 +34,13 @@
   transform: scale(0.98);
 }
 
+.IBMSMSMBSSTagsTag.IBMSMSMBSSTagsTagNSFW {
+  background: rgba(255,255,255,0.1);
+  color: rgb(225,68,68);
+  font-weight: bold;
+  border: unset;
+  font-size: 14px;
+  cursor: default;
+  box-shadow: unset;
+}
+

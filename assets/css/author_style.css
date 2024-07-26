@@ -34,7 +34,7 @@
 .IBMSMSMSSS_Author_Top_Details {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 15px;
+  /*grid-gap: 15px;*/
 }
 
 .HBSS_Author_Top_NostrLinks {
