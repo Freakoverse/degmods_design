@@ -593,3 +593,9 @@ a:hover {
   color: rgba(255,255,255,0.5);
 }
 
+:root {
+  --bs-font-sans-serif: usnet;
+  --bs-font-monospace: unset;
+  --bs-body-font-family: unset;
+}
+
