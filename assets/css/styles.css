@@ -1,3 +1,9 @@
+:root {
+  --bs-font-sans-serif: usnet;
+  --bs-font-monospace: unset;
+  --bs-body-font-family: unset;
+}
+
 .htmlMain {
   Background: linear-gradient(to top right, #1b1b1b, #232323, #1b1b1b);
   Background: -webkit-linear-linear-gradient(to top right, #1b1b1b, #232323, #1b1b1b);
@@ -591,11 +597,5 @@ a:hover {
 
 .progressBarMainDetailText {
   color: rgba(255,255,255,0.5);
-}
-
-:root {
-  --bs-font-sans-serif: usnet;
-  --bs-font-monospace: unset;
-  --bs-body-font-family: unset;
 }
 
