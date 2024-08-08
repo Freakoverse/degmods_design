@@ -403,3 +403,10 @@
   padding: 15px 10px;
 }
 
+.pUMCB_ZapsInsideBtns {
+  display: grid;
+  grid-template-columns: 0.25fr 1.75fr;
+  width: 100%;
+  grid-gap: 15px;
+}
+
