@@ -43,6 +43,15 @@ document.addEventListener('DOMContentLoaded', function () {
             disableScroll();
         });
     }
+    
+        // Click event for element with ID "registerNav"
+    var loginNavButton = document.getElementById('registerNav');
+    if (loginNavButton) {
+        loginNavButton.addEventListener('click', function () {
+            togglePopupDisplay('PopUpMainRegister');
+            disableScroll();
+        });
+    }
 
     // Click event for element with ID "reportPost"
     var reportPostButton = document.getElementById('reportPost');
