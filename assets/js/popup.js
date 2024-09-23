@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var repliesButton = document.querySelector('.IBMSMSMBSS_D_CBolt');
     if (repliesButton) {
         repliesButton.addEventListener('click', function () {
-            togglePopupDisplay('PopUpMainZapSplitAlt');
+            togglePopupDisplay('PopUpMainZapSplit');
             disableScroll();
         });
     }
