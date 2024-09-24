@@ -1,0 +1,198 @@
+.streamingTab {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  padding: 10px;
+}
+
+.streamingTabExpand {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 15px;
+}
+
+.streamingTabExpandInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+}
+
+.streamingTabExpandInfoDetail {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+}
+
+.streamingTabBody {
+  transition: ease 0.4s;
+  display: none;
+  flex-direction: row;
+  grid-gap: 15px;
+  max-height: 554px;
+}
+
+@media (max-width: 992px) {
+  .streamingTabBody {
+    flex-direction: column;
+    max-height: unset;
+  }
+}
+
+.streamingTabBodyStream {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.streamingTabBodyChat {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  border: solid 1px rgba(255,255,255,0.1);
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0px;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .streamingTabBodyChat {
+    max-width: unset;
+  }
+}
+
+.streamingTabBodyStreamInside {
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.streamingTabBodyChatInside {
+  width: 100%;
+  height: 100%;
+  max-height: 554px;
+  display: flex;
+  flex-direction: column-reverse;
+  grid-gap: 10px;
+  padding: 10px;
+  overflow: auto;
+  box-shadow: inset 0 0 4px 0 rgb(0,0,0,0.1);
+}
+
+.streamingTabExpandInfoDetailLIVE {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: rgba(255,255,255,0.1);
+  justify-content: center;
+  align-items: center;
+}
+
+.streamingTabExpandInfoDetailLIVE > :nth-child(1) {
+  color: #ff7f68;
+}
+
+.streamingTabExpandInfoDetailText {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
+  align-items: center;
+  color: rgba(255,255,255,0.75);
+}
+
+.streamingTabExpandInfoDetailTextSpan {
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 175px;
+}
+
+.streamingTabBodyChatInsideElement {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
+  min-height: 50px;
+  background: tomato;
+}
+
+.streamingTabBody.streamingTabBodyActive {
+  transition: ease 0.4s;
+  display: flex;
+}
+
+.streamingTabBodyChatBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 10px;
+  padding: 0px;
+  border-top: solid 1px rgba(255,255,255,0.1);
+  position: relative;
+  height: 100px;
+  justify-content: end;
+  align-items: end;
+  background: rgba(0,0,0,0.2);
+}
+
+.btnMain.streamingTabExpandInfoBtn {
+  border-radius: 5px;
+}
+
+.btnMain.streamingTabExpandInfoBtn.streamingTabExpandInfoBtnActive > * {
+  transform: rotate(180deg);
+}
+
+.btnMain.streamingTabBodyChatBottomBtn {
+  z-index: 1;
+  height: 100%;
+}
+
+.inputMain.streamingTabBodyChatBottomInput {
+  border-radius: 0px;
+  border: unset;
+  resize: none;
+  height: 100%;
+  background: unset;
+}
+
+.inputMain.streamingTabBodyChatBottomInput:active, .inputMain.streamingTabBodyChatBottomInput:focus, .inputMain.streamingTabBodyChatBottomInput:hover {
+  border: unset;
+  outline: unset;
+}
+
+.streamingTabBodyChatBottomBtns {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+}
+
+.streamingTabBodyChatBtns {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 5px;
+  padding: 10px;
+  border-top: solid 1px rgba(255,255,255,0.1);
+}
+
+.btnMain.streamingTabBodyChatBtnsBtn {
+  flex-grow: 1;
+}
+
